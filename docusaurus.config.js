@@ -13,10 +13,10 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://glintfraulein.github.io/GlinTFraulein_website',
+  url: 'https://glintfraulein.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/GlinTFraulein_website',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
