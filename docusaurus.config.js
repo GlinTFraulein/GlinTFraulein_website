@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'GlinTFraulein Portal',
+  tagline: '面白くて、楽しいことをしましょう！',
+  favicon: 'img/icon_2022_Clear.ico',
 
   // Set the production url of your site here
   url: 'https://glintfraulein.github.io',
@@ -31,8 +31,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ja',
+    locales: ['ja'],
   },
 
   presets: [
@@ -44,15 +44,15 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -67,10 +67,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'GlinTFraulein Portal',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'GlinTFraulein icon',
+          src: 'img/icon_2022_Clear.ico',
         },
         items: [
           {
@@ -81,7 +81,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/GlinTFraulein',
             label: 'GitHub',
             position: 'right',
           },
@@ -91,28 +91,36 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Pages',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introduction',
+                to: '/docs/introduction/General',
+              },
+              {
+                label: 'Notes',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Contact',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Misskey (misskey.niri.la)',
+                href: 'https://misskey.niri.la/@GlinTFraulein',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Misskey (misskey.io)',
+                href: 'https://misskey.io/@GlinTFraulein',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'VRChat',
+                href: 'https://vrchat.com/home/user/usr_6e31fb1b-1a13-4226-807e-efc872b4612d',
+              },
+              {
+                label: 'Twitter (Announcement only / Deprecated)',
+                href: 'https://twitter.com/GlinTFraulein',
               },
             ],
           },
@@ -125,12 +133,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/GlinTFraulein',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GlinTFraulein, Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
