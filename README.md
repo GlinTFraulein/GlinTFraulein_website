@@ -1,3 +1,5 @@
+https://glintfraulein.github.io/GlinTFraulein_website/
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

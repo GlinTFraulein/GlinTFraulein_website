@@ -94,10 +94,6 @@ const config = {
             title: 'Pages',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs/introduction/General',
-              },
-              {
                 label: 'Notes',
                 to: '/docs/intro',
               },

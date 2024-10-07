@@ -6,3 +6,5 @@ tags: [hello, 技術]
 ---
 
 あとで書きます
+
+<!-- truncate -->
