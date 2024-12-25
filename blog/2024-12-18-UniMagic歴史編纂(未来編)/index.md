@@ -1,6 +1,6 @@
 ---
-slug: UniMagic-History-3
-title: UniMagic歴史編纂(現在編)
+slug: UniMagic-History-4
+title: UniMagic歴史編纂(未来編)
 authors: [GlinTFraulein]
 tags: [UniMagic]
 ---
