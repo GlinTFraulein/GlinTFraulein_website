@@ -8,10 +8,10 @@ sidebar_position: 2
 Low-effort Uploaderは、PlayableDirectorが付いたままでもVRChatにアバターを正常にアップロードできるようにします。
 
 ## いつ使うの？
-Playable Director、すなわちTimelineを使う時！
+Playable Director、すなわちTimelineを使ったアバターをアップロードしたい時！
 
 ## 使い方
-:::info
+:::info[ポイント]
 Setup Optimizationからパーティクルライブをセットアップした場合、**Low-effort Uploaderもセットアップ済です！**
 
 VRCSDKにはエラーが残りますが、そのままアップロードしてみてください。

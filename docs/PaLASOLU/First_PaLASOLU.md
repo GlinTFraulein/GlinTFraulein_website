@@ -27,7 +27,7 @@ PaLASOLUでは、大きく2つの機能が提供されています。
 デフォルト設定では、"Assets/ParticleLive/[楽曲名]"フォルダが生成されます。パーティクルライブのために用意した画像やマテリアルなどの素材は、このフォルダに入れておくとよいでしょう。
 :::
 
-高度な設定などについては、[Setup Optimization]をご覧ください。
+高度な設定などについては、[Setup Optimization](/docs/PaLASOLU/Document/SetupOptimization)をご覧ください。
 
 ## Low-effort Uploader
 
@@ -39,10 +39,10 @@ PaLASOLUでは、大きく2つの機能が提供されています。
 
 上記のSetup Optimizatironからセットアップをした場合、セットアップで生成されたプレハブをアバター直下に含めるだけで、正しくアップロードできます。
 
-:::info
+:::info[ポイント]
 Setup Optimizationからパーティクルライブをセットアップした場合、**Low-effort Uploaderもセットアップ済です！**
 
 VRCSDKにはエラーが残りますが、そのままアップロードしてみてください。
 :::
 
-高度な設定などについては、[Low-effort Uploader]をご覧ください。
+高度な設定などについては、[Low-effort Uploader](/docs/PaLASOLU/Document/LoweffortUploader)をご覧ください。

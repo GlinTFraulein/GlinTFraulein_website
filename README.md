@@ -1,4 +1,4 @@
-https://glintfraulein.github.io/GlinTFraulein_website/
+https://glintfraulein.info/
 
 # Website
 

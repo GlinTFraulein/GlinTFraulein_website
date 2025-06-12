@@ -77,9 +77,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog',
+            position: 'left',
+            label: 'Blog',
+          },
           {
             href: 'https://github.com/GlinTFraulein',
             label: 'GitHub',
@@ -94,8 +98,12 @@ const config = {
             title: 'Pages',
             items: [
               {
-                label: 'Notes',
-                to: '/docs/intro',
+                label: 'Introduction',
+                to: '/docs',
+              },
+              {
+                label: 'PaLASOLU',
+                to: '/docs/PaLASOLU',
               },
             ],
           },

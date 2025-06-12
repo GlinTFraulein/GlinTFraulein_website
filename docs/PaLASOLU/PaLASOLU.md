@@ -18,4 +18,4 @@ VRChat Creator Companion(VCC)、もしくはALCOM経由でPaLASOLUをインス�
 ## インストール後
 インストール後は以下のチュートリアルへお進みください。
 
-- [はじめてのPaLASOLU]
+- [はじめてのPaLASOLU](/docs/PaLASOLU/First_PaLASOLU)
