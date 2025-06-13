@@ -32,15 +32,19 @@ Playable Directorコンポーネントの付いたGameObjectを手動で選択�
 PlayableDirectorとLow-effort Uploaderが別のGameObjectにアタッチされている場合の動作は**未確認です！**
 :::
 
+### Generate Audio object
+Timeline上に存在するAudioClipをアップロードするための設定です。
+
+通常は演出内にAudioSourceを持つGameObjectがない想定なので、変更不要です。
+
+もしあなたが、自分でAudioSourceを制御している場合、このチェックをOFFにしてください。
+
 ## 制約
-PaLASOLU v0.2.1時点では、以下の制約があります。
+PaLASOLU v0.4.0時点では、以下の制約があります。
 
 - Timelineの一番上のトラックがAnimationTrackである必要がある
 - Timelineの一番上のAnimationTrackのみがアバターに含まれる
   - 複数のAnimationTrackがある場合の動作は保証されません！
-  - 将来のアップデートで対応予定
-- AudioTrackの音源は含まれない
-  - 暫定対処として、音源のGameObjectを手動で作ってください。
   - 将来のアップデートで対応予定
 
 制約を満たしていないPlayableDirectorに対する動作は、**未定義、かつ未保証**です。
