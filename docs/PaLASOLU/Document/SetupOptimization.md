@@ -19,7 +19,7 @@ Setup Optimizationは、パーティクルライブ用の設定済みPrefab、�
 
 子を開いていくと、"WorldFixed/ParticleLive"のGameObjectがあるので、このGameObjectの子になるようにパーティクルライブを制作しましょう！
 
-アバターをアップロードする際は、"[楽曲名]_ParticleLive"のGameObject
+アバターをアップロードする際は、"[楽曲名]_ParticleLive"のGameObjectを、アバター直下に入れて、VRCSDKのアップロードボタンを押しましょう。
 
 :::info[ポイント]
 デフォルト設定では、"Assets/ParticleLive/[楽曲名]"フォルダが生成されます。パーティクルライブのために用意した画像やマテリアルなどの素材は、このフォルダに入れておくとよいでしょう。

@@ -40,11 +40,10 @@ Timeline上に存在するAudioClipをアップロードするための設定で
 もしあなたが、自分でAudioSourceを制御している場合、このチェックをOFFにしてください。
 
 ## 制約
-PaLASOLU v0.4.0時点では、以下の制約があります。
+PaLASOLU v0.5.0時点では、以下の制約があります。
 
-- Timelineの一番上のトラックがAnimationTrackである必要がある
-- Timelineの一番上のAnimationTrackのみがアバターに含まれる
-  - 複数のAnimationTrackがある場合の動作は保証されません！
-  - 将来のアップデートで対応予定
+- AnimationTrackが、Timelineに対するキー打ちによって作られており、AnimationClipをAnimationTrackに配置していない必要がある
+  - すなわち、Timeline Assetのサブアセットとして存在する、"Recorded"から始まるAnimationファイルに全てのアニメーションデータが記録されている必要があります。
+  - この制約を満たしているならば、AnimationTrackが複数になっても問題ありません。(複数になった場合、"Recorded (1)" "Recorded (2)"……という名称のAnimationファイルが生成されます。)
 
 制約を満たしていないPlayableDirectorに対する動作は、**未定義、かつ未保証**です。
