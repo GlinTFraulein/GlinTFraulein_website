@@ -4,6 +4,8 @@ sidebar_position: 0
 
 # PaLASOLU - Particle Live Avatar Setup Optimization & Low-effort Uploader
 
+![PaLASOLU](img/PaLASOLU_Banner.png)
+
 PaLASOLU(パラソル)は、**VRChatのパーティクルライブ向けに開発された、セットアップ&アップロード補助ツール**です。PaLASOLUを使うと、セットアップやアップロードの煩雑な工程をなくすことができます！
 
 ## インストール
