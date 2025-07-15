@@ -42,7 +42,7 @@ PaLASOLUでは、大きく2つの機能が提供されています。
 :::info[ポイント]
 Setup Optimizationからパーティクルライブをセットアップした場合、**Low-effort Uploaderもセットアップ済です！**
 
-VRCSDKにはエラーが残りますが、そのままアップロードしてみてください。
+本来、PlayableDirectorについてVRCSDKがエラーを出しますが、**Low-effort Uploaderが付いている場合はエラーが出なくなります！**
 :::
 
 高度な設定などについては、[Low-effort Uploader](/docs/PaLASOLU/Document/LoweffortUploader)をご覧ください。

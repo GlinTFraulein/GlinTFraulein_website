@@ -15,7 +15,7 @@ sidebar_position: -1
 | ------------------------- | -------------------------------------------------------------------------------------- | -------------------------------------------- |
 | VRChat                    | [GlinTFraulein](https://vrchat.com/home/user/usr_6e31fb1b-1a13-4226-807e-efc872b4612d) | 面白くて楽しいことをします                   |
 | Missekey(misskey.niri.la) | [@GlinTFraulein@misskey.niri.la](https://misskey.niri.la/@GlinTFraulein)               | おおむね、脳直                               |
-| Discord                   | [glintfraulein](https://discordapp.com/users/290779499379949568)                               | そこそこ真面目なやり取りとか情報収集とか     |
+| Discord                   | [glintfraulein](https://discordapp.com/users/290779499379949568)                       | そこそこ真面目なやり取りとか情報収集とか     |
 | GitHub                    | [GlinTFraulein](https://github.com/GlinTFraulein)                                      | 開発                                         |
 | Fanbox                    | [GlinT/MoonChild](https://glintfraulein.fanbox.cc)                                     | GlinTFrauleinとMoonChildの交差点かも         |
 | niconico                  | [GlinT](https://www.nicovideo.jp/user/19660901)                                        | 動画                                         |

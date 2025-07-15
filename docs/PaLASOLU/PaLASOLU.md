@@ -21,3 +21,8 @@ VRChat Creator Companion(VCC)、もしくはALCOM経由でPaLASOLUをインス�
 インストール後は以下のチュートリアルへお進みください。
 
 - [はじめてのPaLASOLU](/docs/PaLASOLU/First_PaLASOLU)
+
+## おかしいな？と思ったら
+PaLASOLUに対する質問や不具合報告は、[GlinTFrauleinのいろいろ](https://discord.gg/mBJaMr6yeK)で受け付けております。必ずメンションをつけてメッセージを送信してください！メンションがない場合、気づかないことがあります。
+
+もしくは、[GitHub](https://github.com/GlinTFraulein/PaLASOLU)でIssue/Pull requestを投げていただいても構いません。
