@@ -2,6 +2,10 @@
 sidebar_position: 1
 ---
 
+# PaLASOLUをとにかく最速で体験したいなら？
+
+Unity上部のメニューバーから「Tools/PaLASOLU/Sample/PaLASOLU Introduction」をクリックし、出てきたPrefabをアバターに入れてアップロードしてみましょう！
+
 # はじめてのPaLASOLU
 
 PaLASOLUでは、大きく2つの機能が提供されています。
