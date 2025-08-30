@@ -41,7 +41,8 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          routeBasePath: '/',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           //editUrl:
@@ -77,7 +78,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Main',
           },
           {
             to: '/blog',
@@ -98,12 +99,12 @@ const config = {
             title: 'Pages',
             items: [
               {
-                label: 'Introduction',
-                to: '/docs',
+                label: 'GlinTFraulein',
+                to: '/',
               },
               {
                 label: 'PaLASOLU',
-                to: '/docs/PaLASOLU',
+                to: '/PaLASOLU',
               },
             ],
           },
@@ -113,10 +114,6 @@ const config = {
               {
                 label: 'Misskey (misskey.niri.la)',
                 href: 'https://misskey.niri.la/@GlinTFraulein',
-              },
-              {
-                label: 'Misskey (misskey.io)',
-                href: 'https://misskey.io/@GlinTFraulein',
               },
               {
                 label: 'VRChat',
