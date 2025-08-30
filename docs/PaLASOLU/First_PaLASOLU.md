@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 
-# PaLASOLUをとにかく最速で体験したいなら？
+# はじめてのPaLASOLU
+
+## PaLASOLUをとにかく最速で体験したいなら？
 
 Unity上部のメニューバーから「Tools/PaLASOLU/Sample/PaLASOLU Introduction」をクリックし、出てきたPrefabをアバターに入れてアップロードしてみましょう！
 
-# はじめてのPaLASOLU
+# PaLASOLUってなに？
 
 PaLASOLUでは、大きく2つの機能が提供されています。
 - Setup Optimization
@@ -31,7 +33,7 @@ PaLASOLUでは、大きく2つの機能が提供されています。
 デフォルト設定では、"Assets/ParticleLive/[楽曲名]"フォルダが生成されます。パーティクルライブのために用意した画像やマテリアルなどの素材は、このフォルダに入れておくとよいでしょう。
 :::
 
-高度な設定などについては、[Setup Optimization](/docs/PaLASOLU/Document/SetupOptimization)をご覧ください。
+高度な設定などについては、[Setup Optimization](/PaLASOLU/Document/SetupOptimization)をご覧ください。
 
 ## Low-effort Uploader
 
@@ -49,4 +51,4 @@ Setup Optimizationからパーティクルライブをセットアップした�
 本来、PlayableDirectorについてVRCSDKがエラーを出しますが、**Low-effort Uploaderが付いている場合はエラーが出なくなります！**
 :::
 
-高度な設定などについては、[Low-effort Uploader](/docs/PaLASOLU/Document/LoweffortUploader)をご覧ください。
+高度な設定などについては、[Low-effort Uploader](/PaLASOLU/Document/LoweffortUploader)をご覧ください。
