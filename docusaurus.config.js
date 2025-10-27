@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'GlinTFraulein Portal',
   tagline: '面白くて、楽しいことをしましょう！',
-  favicon: 'img/icon_2022_Clear.ico',
+  favicon: 'icon_2025_oc_2k.ico',
 
   // Set the production url of your site here
   url: 'https://glintfraulein.info',
@@ -71,7 +71,7 @@ const config = {
         title: 'GlinTFraulein Portal',
         logo: {
           alt: 'GlinTFraulein icon',
-          src: 'img/icon_2022_Clear.ico',
+          src: 'icon_2025_oc_2k.ico',
         },
         items: [
           {
