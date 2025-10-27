@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Setup Optimization
 
-[画像]
+![Setup Optimization](../img/PaLASOLU_ParticleLiveSetup.png)
+
 Setup Optimizationは、パーティクルライブ用の設定済みPrefab、ならびにフォルダを生成します。
 
 ## いつ使うの？
@@ -13,11 +14,23 @@ Setup Optimizationは、パーティクルライブ用の設定済みPrefab、�
 ## 使い方
 "Tools/PaLASOLU/ParticleLive Setup"から、ウィンドウを出してください。
 
-次に、楽曲名と、既にあれば楽曲ファイルを入力します。楽曲ファイルは後で手動でTimelineに入れることもできます。
+![ParticleLive Setupを開く](../img/PaLASOLU_PLS_Open.png)
 
-最後に、「セットアップ！」を押すと、シーン上にセットアップ済のプレハブが出現します。
+出てきたウィンドウに、楽曲名と、既にあれば楽曲ファイルを入力します。楽曲ファイルは後で手動でTimelineに入れることもできます。
 
-子を開いていくと、"WorldFixed/ParticleLive"のGameObjectがあるので、このGameObjectの子になるようにパーティクルライブを制作しましょう！
+最後に、「セットアップ！」を押します。
+
+![ParticleLive Setupを設定する](../img/PaLASOLU_PLS_Setup.png)
+
+「Timelineでの作業を始める前に、Lockボタンを押してね！」というメッセージが出ます。よく読んで、「OK」を押します。
+
+![Timelineでの作業を始める前に](../img/TimelineLockNotice.png)
+
+"[楽曲名]_ParticleLive"のGameObjectが出てくるので、このGameObjectの子になるようにパーティクルライブを制作しましょう！
+
+アニメーションの記録は、同時に出てきた「Timeline」ウィンドウで行います。(このページではTimelineウィンドウの説明は省略します)
+
+![セットアップ完了時のUnity画面の例](../img/PaLASOLU_Unity.png)
 
 アバターをアップロードする際は、"[楽曲名]_ParticleLive"のGameObjectを、アバター直下に入れて、VRCSDKのアップロードボタンを押しましょう。
 
@@ -26,6 +39,14 @@ Setup Optimizationは、パーティクルライブ用の設定済みPrefab、�
 :::
 
 ## 高度な設定
+
+### Advanced Setup
+
+[PaLASOLU Low-effort Uploader](LoweffortUploader)は、デフォルトで「ワールド固定」「パーティクルライブのON/OFF」などを自動でアバターメニューに追加します。
+
+本オプションをONにすると、ワールド固定ギミックやON/OFFギミック用のPrefabを明示的に生成します。
+
+これは、ワールド固定時に出現する観客位置目安用の棒を削除/加工したい場合や、LocalOnlyのObjectを使いたい場合などに有効です。
 
 ### Select Folder Directory
 
