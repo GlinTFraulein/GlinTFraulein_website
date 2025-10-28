@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'GlinTFraulein Portal',
   tagline: '面白くて、楽しいことをしましょう！',
-  favicon: 'icon_2025_oc_2k.ico',
+  favicon: 'img/icon_2025_oc_256.ico',
 
   // Set the production url of your site here
   url: 'https://glintfraulein.info',
@@ -66,17 +66,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+		  image: 'img/GilnT_SocialCard.webp',
       navbar: {
         title: 'GlinTFraulein Portal',
         logo: {
           alt: 'GlinTFraulein icon',
-          src: 'icon_2025_oc_2k.ico',
+          src: 'img/icon_2025_oc_256.ico',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'mainSidebar',
             position: 'left',
             label: 'Main',
           },
