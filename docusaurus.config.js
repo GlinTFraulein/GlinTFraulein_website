@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-		  image: 'img/GilnT_SocialCard.webp',
+          image: 'img/GilnT_SocialCard.webp',
       navbar: {
         title: 'GlinTFraulein Portal',
         logo: {
@@ -146,6 +146,20 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+
+	plugins: [
+      [
+        '@docusaurus/plugin-client-redirects',
+        {
+          createRedirects(existingPath) {
+            return [
+              existingPath.replace('', '/docs'),
+            ];
+          },
+        },
+      ],
+    ],
+
 };
 
 export default config;
