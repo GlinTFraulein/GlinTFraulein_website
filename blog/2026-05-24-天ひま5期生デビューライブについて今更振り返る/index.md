@@ -1,4 +1,4 @@
---
+---
 slug: Tenhima-5thJoin
 title: 天ひま5期生デビューライブについて今更振り返る
 authors: [GlinTFraulein]
